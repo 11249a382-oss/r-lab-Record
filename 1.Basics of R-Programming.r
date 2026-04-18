@@ -2,9 +2,9 @@
 Student Information System
 
 R Program:
-roll_no <- 101 # Integer
-name <- "Anitha" # Character
-cgpa <- 8.45 # Numeric
+roll_no <- 382 # Integer
+name <- "THRISHA" # Character
+cgpa <- 9.2 # Numeric
 pass <- TRUE # Logical
 roll_no
 name
@@ -16,8 +16,8 @@ pass
 Employee Salary Record
 
 R Program:
-emp_id <- 5001
-salary <- 45000.75
+emp_id <- 6000
+salary <- 25000.75
 department <- "IT"
 is_permanent <- TRUE
 emp_id
@@ -31,8 +31,8 @@ Online Shopping Cart
 
 R Program:
 product_name <- "Laptop"
-price <- 55000
-stock_available <- 25
+price <- 90000
+stock_available <- 50
 discount_eligible <- FALSE
 product_name
 price
@@ -44,10 +44,10 @@ discount_eligible
 Weather Monitoring System
 
 R Program:
-city <- "Chennai"
-temperature <- 36.5
+city <- "PUTTUR"
+temperature <- 25
 rain <- FALSE
-wind_speed <- 12.8
+wind_speed <- 11.2
 city
 temperature
 rain
@@ -58,9 +58,9 @@ wind_speed
 Examination Result Processing
 
 R Program:
-subject <- "Mathematics"
+subject <- "TELUGU"
 total_marks <- 100
-marks_obtained <- 78
+marks_obtained <- 90
 result <- marks_obtained >= 40
 subject
 total_marks
@@ -72,9 +72,9 @@ result
 Banking Application
 
 R Program:
-account_no <- 123456789
-holder_name <- "Ravi Kumar"
-balance <- 25000.50
+account_no <- 1985676732
+holder_name <- "Ravi"
+balance <- 250000.50
 account_active <- TRUE
 account_no
 holder_name
@@ -86,9 +86,9 @@ account_active
 Movie Rating System
 
 R Program:
-movie_title <- "Inception"
-rating <- 8.8
-reviews <- 1200
+movie_title <- "PUSHPA"
+rating <- 10.10
+reviews <- 12000
 available <- TRUE
 movie_title
 rating
@@ -100,9 +100,9 @@ available
 Traffic Monitoring System
 
 R Program:
-vehicle_count <- 350
+vehicle_count <- 500
 location <- "Highway Road"
-avg_speed <- 45.6
+avg_speed <- 50
 congested <- TRUE
 vehicle_count
 location
