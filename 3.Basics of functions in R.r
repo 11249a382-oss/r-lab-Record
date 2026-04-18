@@ -6,7 +6,7 @@ simple_interest <- function(p, r, t){
 si <- (p * r * t) / 100
 return(si)
 }
-simple_interest(10000, 5, 2)
+simple_interest(1000, 7, 5)
 
 
 3.2:
@@ -15,13 +15,13 @@ Student Result Processing
 R PROGRAM:
 
 check_result <- function(marks){
-if(marks >= 40){
+if(marks >= 35){
 return("Pass")
 } else {
 return("Fail")
 }
 }
-check_result(65)
+check_result(75)
 
 
 3.3:
@@ -33,7 +33,7 @@ tax <- basic_salary * 0.10
 net <- basic_salary - tax
 return(net)
 }
-net_salary(30000)
+net_salary(50000)
 
 
 3.4:
@@ -41,16 +41,16 @@ net_salary(30000)
 Electricity Bill Generator
 R PROGRAM:
 electricity_bill <- function(units){
-if(units <= 100){
+if(units <= 150){
 bill <- units * 2
-} else if(units <= 200){
+} else if(units <= 250){
 bill <- (100 * 2) + (units - 100) * 3
 } else {
 bill <- (100 * 2) + (100 * 3) + (units - 200) * 5
 }
 return(bill)
 }
-electricity_bill(250)
+electricity_bill(550)
 
 
 3.5:
@@ -67,7 +67,7 @@ discount <- 0
 }
 return(amount - discount)
 }
-final_amount(4500)
+final_amount(5500)
 
 
 3.6:
@@ -76,10 +76,10 @@ Temperature Conversion System
 R PROGRAM:
 
 celsius_to_fahrenheit <- function(c){
-f <- (c * 9/5) + 32
+f <- (c * 9/5) + 30
 return(f)
 }
-celsius_to_fahrenheit(37)
+celsius_to_fahrenheit(35)
 
 
 3.7:
@@ -87,7 +87,7 @@ celsius_to_fahrenheit(37)
 Grading System
 R PROGRAM:
 assign_grade <- function(marks){
-if(marks >= 90){
+if(marks >= 95){
 "A"
 } else if(marks >= 75){
 "B"
@@ -97,7 +97,7 @@ if(marks >= 90){
 "Fail"
 }
 }
-assign_grade(88)
+assign_grade(50)
 
 
 3.8:
@@ -111,7 +111,7 @@ return("Eligible to Vote")
 return("Not Eligible to Vote")
 }
 }
-check_voting(17)
+check_voting(25)
 
 
 3.9:
@@ -125,7 +125,7 @@ emi <- (principal * monthly_rate * (1 + monthly_rate)^months) /
 ((1 + monthly_rate)^months - 1)
 return(round(emi, 2))
 }
-calculate_emi(500000, 7.5, 10)
+calculate_emi(70000, 8.5, 20)
 
 
 3.10:
@@ -138,7 +138,7 @@ tax <- subtotal * 0.05
 total <- subtotal + tax
 return(total)
 }
-hospital_bill(500, 2000, 3)
+hospital_bill(4000, 50000, 10)
 
 
 3.11:
@@ -159,7 +159,7 @@ delivery <- 100
 final_amount <- cart_value - discount + delivery
 return(final_amount)
 }
-order_total(4200)
+order_total(6000)
 
 
 3.12:
@@ -179,7 +179,7 @@ result <- "Fail"
 }
 return(result)
 }
-calculate_gpa(c(78, 85, 90, 72, 80))
+calculate_gpa(c(88, 75, 96, 62, 50))
 
 
 3.13:
@@ -194,7 +194,7 @@ bill <- bill * 1.10
 }
 return(bill)
 }
-smart_meter_bill(180, 150)
+smart_meter_bill(160, 120)
 
 
 3.14:
@@ -211,7 +211,7 @@ premium <- premium * 1.30
 }
 return(premium)
 }
-insurance_premium(5000, 55, TRUE)
+insurance_premium(5000, 25, FALSE)
 
 
 3.15:
@@ -226,7 +226,7 @@ tax <- gross * 0.12
 net <- gross - tax
 return(net)
 }
-payroll(40000)
+payroll(50000)
 
 
 3.16:
@@ -243,4 +243,4 @@ if(litres <= 500){
 "Critical"
 }
 }
-water_usage_status(1200)
+water_usage_status(200)
