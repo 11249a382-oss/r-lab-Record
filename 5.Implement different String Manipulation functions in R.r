@@ -2,7 +2,7 @@
 
 Employee Name Standardization
 R PROGRAM:
-names <- c("arun", "Bala", "chitra")
+names <- c("ANI", "BALA", "CHRARAN")
 upper_names <- toupper(names)
 name_length <- nchar(upper_names)
 upper_names
@@ -13,7 +13,7 @@ name_length
 
 Student Email Processing
 R PROGRAM:
-emails <- c("arun@gmail.com", "meena@yahoo.com", "ravi@outlook.com")
+emails <- c("ARJUN@gmail.com", "RANI@yahoo.com", "RAVI@outlook.com")
 usernames <- sub("@.*", "", emails)
 usernames
 
@@ -31,7 +31,7 @@ clean_input
 
 Product Code Validation
 R PROGRAM:
-product_codes <- c("PRD101", "PRD202", "ABC303")
+product_codes <- c("PRD501", "PRD502", "ABC503")
 valid_codes <- startsWith(product_codes, "PRD")
 valid_codes
 
@@ -39,8 +39,7 @@ valid_codes
 5.5:
 Text Replacement in Reports
 R PROGRAM:
-report <- "error in file, error in system, error occurred"
-updated_report <- gsub("error", "issue", report)
+report <- "error in file, error in system, error occurred"updated_report <- gsub("error", "issue", report)
 updated_report
 
 
@@ -48,7 +47,7 @@ updated_report
 
 Password Strength Checker
 R PROGRAM:
-password <- "secure123"
+password <- "THRISHA123"
 if(nchar(password) >= 8){
 print("Strong Password")
 } else {
@@ -78,7 +77,7 @@ extensions
 
 Student Name Abbreviation
 R PROGRAM:
-names <- c("Gayathri", "Karthik", "Anitha")
+names <- c("DHARANI", "KAVITHA", "MAHATHI")
 abbr <- substr(names, 1, 3)
 abbr
 
@@ -87,7 +86,7 @@ abbr
 
 Search Operation in Text
 R PROGRAM:
-names <- c("Arun", "Bala", "Ravi", "John")
+names <- c("AMULYA", "BHARATH", "HEMA", "RAVI")
 matched_names <- grep("a", names, value = TRUE)
 matched_names
 
@@ -110,7 +109,7 @@ Product Inventory Text Cleaning
 R PROGRAM:
 products <- data.frame(
 Product = c(" apple phone ", "SAMSUNG-TV ", " dell laptop"),
-Code = c("PRD-101-APL", "PRD-202-SAM", "PRD-303-DEL")
+Code = c("PRD-301-APL", "PRD-302-SAM", "PRD-303-DEL")
 )
 products$Product <- trimws(products$Product)
 products$Product <- tools::toTitleCase(tolower(products$Product))
