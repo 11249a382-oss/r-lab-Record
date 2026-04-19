@@ -39,7 +39,8 @@ valid_codes
 5.5:
 Text Replacement in Reports
 R PROGRAM:
-report <- "error in file, error in system, error occurred"updated_report <- gsub("error", "issue", report)
+report <- "error in file, error in system, error occurred"
+updated_report <- gsub("error", "issue", report)
 updated_report
 
 
