@@ -5,10 +5,10 @@ R Program:
 # Step 1: Create dataset
 students <- data.frame(
 Name =
-c("Arjun","Meena","Rahul","Anitha","Kiran","Sneha","Ravi","Gayathri","Suresh","Lakshmi"),
-Maths = c(85,90,70,95,80,88,75,92,68,86),
-Science = c(78,88,60,92,85,80,70,90,75,82),
-English = c(92,80,75,98,88,85,78,91,80,87)
+c("AMIT","MEERA","ROSHINI","ARYA","KALYANI","SARASWATI","RAVI","GOUTHAMI","SABITHA","LAHARI"),
+Maths = c(75,80,90,85,70,78,85,72,98,96),
+Science = c(88,98,80,72,85,90,70,88,95,92),
+English = c(82,70,85,88,98,75,88,91,70,97)
 )
 # Step 2: Mean, Median, SD
 mean_marks <- sapply(students[ ,2:4], mean)
@@ -34,11 +34,11 @@ R Program:
 # Step 1: Create dataset
 sales <- data.frame(
 Product = c("Phone","Laptop","Headset","Bag","Camera","Mouse","Keyboard"),
-Day1 = c(5,3,7,10,2,8,6),
-Day2 = c(4,2,8,12,3,7,5),
-Day3 = c(6,4,6,8,1,9,7),
-Day4 = c(5,3,7,11,2,6,6),
-Day5 = c(7,5,5,9,3,8,8)
+Day1 = c(15,32,17,10,22,18,26),
+Day2 = c(14,22,68,12,43,37,25),
+Day3 = c(26,44,56,38,51,39,27),
+Day4 = c(35,53,47,11,12,26,36),
+Day5 = c(47,35,25,19,53,38,28)
 )
 
 # Step 2: Mean, Max, Min, Variance per product
@@ -62,7 +62,7 @@ R Program:
 # Dataset
 patients <- data.frame(
 PatientID = 201:210,
-Name = c("Suresh","Lakshmi","Arjun","Meena","Ravi","Anitha","Kiran","Sneha","Gayathri","Ravi2"),
+Name = c("NAVATHA","LUCKY","ASHISH","MUNI","RAVI","AVI","KALYAN","SAVITHRI","GOUTHAM","RAKESH"),
 Age = c(45,38,52,29,60,48,55,35,42,50)
 )
 # Statistical analysis
@@ -87,9 +87,9 @@ R Program:
 employees <- data.frame(
 EmpID = 101:110,
 Name =
-c("Rahul","Sneha","Kiran","Anitha","Ravi","Gayathri","Suresh","Lakshmi","Arjun","Meena"),
+c("RAMU","SARANYA","KAVITHA","ANITHA","RAVI","GANESH","SIRI","LOKESH","AKHIL","MANOJ"),
 Dept = c("IT","HR","Finance","IT","HR","Finance","IT","HR","Finance","IT"),
-Salary = c(30000,35000,40000,32000,36000,42000,31000,37000,45000,33000)
+Salary = c(500000,750000,200000,332000,300000,742000,831000,390000,430000,330000)
 )
 # Mean and Median per department
 dept_stats <- aggregate(Salary ~ Dept, data=employees, function(x) c(Mean=mean(x),
@@ -111,7 +111,7 @@ ratings <- data.frame(
 ProductID = 1:10,
 Product =
 c("Phone","Laptop","Headset","Bag","Camera","Mouse","Keyboard","Charger","Tablet","Speaker"),
-Rating = c(4,5,3,4,5,4,3,5,4,4)
+Rating = c(9,5,4,7,3,6,5,8,9,7)
 )
 # Mean, Median, Variance
 mean_rating <- mean(ratings$Rating)
@@ -125,7 +125,7 @@ uniqv[which.max(tabulate(match(v, uniqv)))]
 }
 mode_rating <- getmode(ratings$Rating)
 # Products with rating > 4
-top_rated <- ratings[ratings$Rating > 4, ]
+top_rated <- ratings[ratings$Rating > 5, ]
 mean_rating
 median_rating
 mode_rating
