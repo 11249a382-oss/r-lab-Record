@@ -4,13 +4,13 @@ University Course Enrollment
 R Program:
 # Data
 departments <- c("CSE", "ECE", "IT", "Mechanical")
-students <- c(120, 80, 60, 40)
+students <- c(1200, 800, 600, 400)
 # Pie Chart
 pie(
 students,
 labels = departments,
 main = "Student Enrollment per Department",
-col = c("skyblue", "orange", "green", "pink")
+col = c("pink", "navyblue", "orange", "maroon")
 )
 # Bar Chart
 barplot(
@@ -19,7 +19,7 @@ names.arg = departments,
 main = "Number of Students per Department",
 xlab = "Department",
 ylab = "Number of Students",
-col = c("skyblue", "orange", "green", "pink")
+col = c("pink", "navyblue", "orange", "maroon")
 )
 
 
@@ -29,7 +29,7 @@ Retail Store Sales Distribution
 R Program:
 # Data
 category <- c("Electronics", "Clothing", "Accessories", "Home Appliances")
-sales <- c(150000, 75000, 50000, 25000)
+sales <- c(200000, 85000, 60000, 45000)
 # Pie Chart
 pie(
 sales,
@@ -61,7 +61,7 @@ pie(
 count,
 labels = grades,
 main = "Grade Distribution",
-col = c("gold", "lightblue", "pink", "lightgreen")
+col = c("gold", "blue", "pink", "green")
 )
 # Bar Chart
 barplot(
@@ -70,7 +70,7 @@ names.arg = grades,
 main = "Number of Students per Grade",
 xlab = "Grade",
 ylab = "Number of Students",
-col = c("gold", "lightblue", "pink", "lightgreen")
+col = c("gold", "blue", "pink", "green")
 )
 
 
@@ -80,7 +80,7 @@ Company Employee Experience Levels
 R Program:
 # Data
 experience <- c("0-2 years", "3-5 years", "6-10 years", "10+ years")
-employees <- c(50, 80, 40, 30)
+employees <- c(40, 60, 20, 30)
 # Pie Chart
 pie(
 employees,
@@ -113,7 +113,7 @@ pie(
 production,
 labels = crop,
 main = "Crop Production Distribution",
-col = c("gold", "green", "orange", "brown")
+col = c("blue", "lightgreen", "orange", "maroon")
 )
 # Bar Chart
 barplot(
@@ -122,5 +122,5 @@ names.arg = crop,
 main = "Crop Production in Tonnes",
 xlab = "Crop",
 ylab = "Production (Tonnes)",
-col = c("gold", "green", "orange", "brown")
+col = c("blue", "lightgreen", "orange", "maroon")
 )
