@@ -3,7 +3,8 @@
 Student Marks Processing (Vectors)
 R PROGRAM:
 Vector is suitable because all values are of the same data type.
-marks <- c(78, 85, 90, 88, 76)
+
+marks <- c(88, 95, 90, 68, 56)
 total <- sum(marks)
 average <- mean(marks)
 highest <- max(marks)
@@ -16,7 +17,7 @@ highest
 
 Temperature Monitoring System (Vectors)
 R PROGRAM:
-temperature <- c(32, 33, 31, 34, 35, 36, 33)
+temperature <- c(22, 23, 33, 24, 34, 26, 35)
 min_temp <- min(temperature)
 max_temp <- max(temperature)
 min_temp
@@ -30,9 +31,9 @@ Employee Profile Storage (Lists)
 R PROGRAM:
 List is suitable because it supports different data types.
 employee <- list(
-ID = 101,
-Name = "Gayathri",
-Salary = 45000,
+ID = 301,
+Name = "Ganesh",
+Salary = 75000,
 Department = "IT"
 )
 employee
@@ -45,9 +46,9 @@ employee$Salary
 Patient Medical Record System (Lists)
 R PROGRAM:
 patient <- list(
-PatientID = 202,
+PatientID = 502,
 Name = "Ravi",
-Age = 45,
+Age = 35,
 TestResults = c(120, 140, 130)
 )
 patient
@@ -61,8 +62,8 @@ R PROGRAM:
 Data frame is best for structured tabular data.
 students <- data.frame(
 
-RollNo = c(1, 2, 3),
-Name = c("Anitha", "Karthik", "Meena"),
+RollNo = c(21, 22, 23),
+Name = c("AMITH", "KIRAN", "MEENAKSHI"),
 Dept = c("CSE", "ECE", "IT"),
 Marks = c(85, 78, 92)
 )
@@ -75,7 +76,7 @@ Sales Report System (Data Frames)
 R PROGRAM:
 sales <- data.frame(
 Month = c("Jan", "Feb", "Mar"),
-Sales = c(50000, 62000, 58000)
+Sales = c(100000, 620000, 980000)
 )
 total_sales <- sum(sales$Sales)
 total_sales
@@ -85,10 +86,10 @@ total_sales
 
 E-Commerce Order System (Combination of Data Structures)
 R PROGRAM:
-prices <- c(1200, 850, 560)
+prices <- c(1500, 950, 760)
 customer <- list(
 CustomerID = 301,
-Name = "Anjali",
+Name = "ANU",
 City = "Chennai"
 )
 orders <- data.frame(
@@ -104,14 +105,14 @@ orders
 
 Online Exam System
 R PROGRAM:
-subject_marks <- c(78, 85, 88)
+subject_marks <- c(88, 95, 78)
 student_profile <- list(
 Name = "Arun",
 RollNo = 105,
 Marks = subject_marks
 )
 class_results <- data.frame(
-RollNo = c(101, 102, 103),
+RollNo = c(301, 302, 303),
 Total = c(240, 255, 270)
 )
 student_profile
@@ -122,10 +123,10 @@ class_results
 
 Bank Account Management
 R PROGRAM:
-balances <- c(5000, 5200, 5100)
+balances <- c(50000, 52000, 51000)
 customer <- list(
-AccountNo = 12345,
-Name = "Suresh"
+AccountNo = 93825,
+Name = "MAHESH"
 )
 transactions <- data.frame(
 Date = c("01-01", "02-01", "03-01"),
@@ -143,9 +144,9 @@ R PROGRAM:
 Vector stores homogeneous data (marks, prices)
 List stores heterogeneous data (profiles)
 Data Frame stores structured tabular data (records)
-scores <- c(85, 90, 88)
+scores <- c(95, 90, 98)
 profile <- list(
-Name = "Gayathri",
+Name = "GANESH",
 Age = 21,
 Scores = scores
 
